@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content-->
+      <br>
+      <br>
+      <br>
+<font color="white">
+      <font color="white">Search: </font><input ng-model="query">
+      <font color="white">Sort by:</font>
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <div class="logo" >
+	  <img class="logo" src="img/cars/lambfire.jpg" align="right"><br><br>
+<h1 style= "color:blue;font-size:40px;text-align:center;font-family: Magneto;">Car Gallery</h1>
+	<br>  </div>
+
+	  <h3 style="text-align:right;color:blue;font-family:verdana;font-size:15px;">
+Buy the car of your dreams...</h3>
+
+      <ul class="cars">
+        <li ng-repeat="car in cars | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/cars/{{car.id}}" class="thumb"><img ng-src="{{car.imageUrl}}"></a>
+          <a href="#/cars/{{car.id}}">{{car.name}}</a>
+          <p>{{car.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

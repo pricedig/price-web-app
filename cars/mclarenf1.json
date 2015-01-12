@@ -1,0 +1,19 @@
+{
+    
+    "id": "mclaren-f1", 
+    "images": [
+        "img/cars/mclarenf11.jpg", 
+        "img/cars/mclarenf12.jpg", 
+        "img/cars/mclarenf13.jpeg", 
+        "img/cars/mclarenf14.jpg"
+    ], 
+    "name": "Mclaren F1", 
+      "description": " Intoducing the Mclaren F1 with the entirely new all aluminum space-frame chassis.The new V8 engine, common to all versions, utilizes a 3.6 litre capacity, flat plane crankshaft, titanium con-rods and generates 400 bhp (300 kW). Despite what looks like on paper modest gains in reality the power to weight ratio was significantly improved on over the F355, this was due to the combination of both a lighter car and more power. The 0 to 100 km/h (62 mph) acceleration performance improved from 4.6 to 4.3 seconds",
+        "Manufacturer": "Mclaren",
+        "Price": "$15000",
+        "WheelBase": "120 inches",
+        "Length": " 140 inches",
+        "HP":"200 rpm",
+    "Power":"15 cv",
+    "Available":true
+}
